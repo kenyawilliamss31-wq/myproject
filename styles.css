@@ -18,8 +18,8 @@ h2 {
 }
 
 .card {
-    background-color: rgb(252, 160, 160);
-    border: 2px solid #7a0019;
+    background-color: rgb(247, 165, 89);
+    border: 2px solid #5470ce;
     border-radius: 30px;
     padding: 20px;
     margin: 15px;
@@ -31,7 +31,7 @@ h2 {
 
 .track-card {
     background-color: #7791f9;
-    border: 2px solid #0713f2;
+    border: 2px solid #e7b068;
     border-radius: 30px;
     padding: 2px;
     margin: 1px;
@@ -40,8 +40,8 @@ h2 {
 
 
 .runner-card {
-    background-color: #91e3b6;
-    border: 2px solid #15f309;
+    background-color: #dadee7;
+    border: 2px solid #f3d492;
     border-radius: 30px;
     padding: 2px;
     margin: 15px;
