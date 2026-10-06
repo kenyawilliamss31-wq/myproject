@@ -24,7 +24,7 @@ h2 {
     padding: 20px;
     margin: 15px;
     box-shadow: 0 3px 8px #ccc;
-    /* CHANGED: removed width: 30px; it squished the card so text couldn't fit */
+
 }
 
 
@@ -35,7 +35,7 @@ h2 {
     border-radius: 30px;
     padding: 2px;
     margin: 1px;
-    /* CHANGED: removed width: 30px */
+   
 }
 
 
@@ -45,17 +45,14 @@ h2 {
     border-radius: 30px;
     padding: 2px;
     margin: 15px;
-    /* CHANGED: removed width: 30px */
+
 }
 
 
 
-.card-container {
-    /* CHANGED: grid instead of flex, so the cards line up in even columns */
+.card-container { 
     display: grid;
-    /* 3 equal columns; 1fr = one equal share of the space */
     grid-template-columns: repeat(3, 1fr);
-    /* CHANGED: gap went from 200px to 20px; 200px pushed the cards off the screen */
     gap: 20px;
 }
 
