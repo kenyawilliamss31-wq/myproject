@@ -97,3 +97,6 @@ img {
     border-radius: 10px;
     font-size: 16px;
 }
+#search-feedback {
+    font-weight: bold;
+}
