@@ -64,11 +64,11 @@ nav {
 }
 
 
-nav ul {
-    list-style-type: none;
+ nav ul{ 
+    list-style-type: none ; 
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    justify-content: center; 
+    gap: 30px; 
     padding: 0;
 }
 
@@ -89,4 +89,11 @@ img {
     max-width: 300px;
     border: 3px solid #7a0019;
     border-radius: 10px;
+}
+
+#site-search {
+    padding: 8px;
+    border: 2px solid #7a0019;
+    border-radius: 10px;
+    font-size: 16px;
 }
